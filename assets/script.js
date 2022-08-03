@@ -54,7 +54,7 @@ searchBtn.addEventListener("click", function(event) {
 });
 
 function getApi(searchCity) {
-    var geoLocationUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + searchCity + "&limit=5&appid=" + weatherApiKey;
+    var geoLocationUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + searchCity + "&limit=5&appid=" + weatherApiKey;
   
     fetch(geoLocationUrl)
       .then(function(response) {
