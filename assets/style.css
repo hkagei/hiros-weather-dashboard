@@ -1,0 +1,41 @@
+h1 {
+    font-size: 40px;
+    font-weight: 350;
+    letter-spacing: 3px;
+    color: black;
+}
+
+#cityDetail,
+#uvIndexColor,
+li {
+    color: #4D4F53;
+}
+
+p {
+    color: #D9B779;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2, h3, h4, h5 {
+    color: #f8f8ff;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightslategrey;
+}
+
+#searchResults {
+    height: 100vh;
+}
+
+#weatherContent {
+    display: block;
+}
+
+.navbar {
+    height: 150px;
+}
